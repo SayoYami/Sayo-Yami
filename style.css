@@ -10,7 +10,7 @@ html {
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/fundo-black2.jpg);
+  --bg-url: url(./assets/fundo-black.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.08);
   --surface-color-hover: rgba(255, 255, 255, 0.15);
@@ -34,7 +34,7 @@ body * {
 #container {
   width: 360px;
   margin: auto;
-  padding: 56px 0 24px 0;
+  padding: 24px 0 24px 0; /* Reduzido para aproximar os elementos */
   animation: fadeIn 0.8s ease-in-out;
 }
 
@@ -51,18 +51,38 @@ body * {
 
 #profile {
   text-align: center;
-  padding: 16px; /* reduzido de 24px */
+  padding: 16px 0; /* Menor espaçamento */
 }
 
-#profile img {
-  width: 112px;
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: none;
+}
+
+/* Lógica da troca de imagem por tema */
+.light .light-mode {
+  display: inline;
+}
+
+.light .dark-mode {
+  display: none;
+}
+
+html:not(.light) .light-mode {
+  display: none;
+}
+
+html:not(.light) .dark-mode {
+  display: inline;
 }
 
 #profile p {
   font-weight: 400;
   line-height: 24px;
-  margin-top: 8px;
-  padding: 4px 0; /* reduzido de 24px */
+  margin-top: 4px;  /* Reduzido */
+  padding: 8px 0;   /* Reduzido */
 }
 
 .typing {
@@ -81,7 +101,7 @@ body * {
 #switch {
   display: flex;
   justify-content: center;
-  padding: 16px 0;
+  padding: 12px 0; /* Reduzido */
 }
 
 #switch button {
@@ -119,7 +139,7 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px; /* Reduzido para aproximar os botões */
   padding: 0;
   margin: 0;
 }
