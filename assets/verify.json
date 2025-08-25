@@ -1,1 +1,9 @@
 
+{
+  "status": "ok",
+  "tokens": [
+    "TOKEN_USUARIO_1",
+    "TOKEN_USUARIO_2",
+    "TOKEN_USUARIO_3"
+  ]
+}
