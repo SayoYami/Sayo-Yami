@@ -1,9 +1,15 @@
-
 {
   "status": "ok",
   "tokens": [
-    "TOKEN_USUARIO_1_DEV",
-    "TOKEN_USUARIO_2",
-    "TOKEN_USUARIO_3"
+    {
+      "token": "ABC123",
+      "user": "Fulano",
+      "expires": "2025-09-10"
+    },
+    {
+      "token": "TOKEN_USUARIO_1_DEV",
+      "user": "SayoDevs",
+      "expires": "2025-2-24"
+    }
   ]
 }
