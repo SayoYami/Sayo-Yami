@@ -2,9 +2,9 @@
   "status": "ok",
   "tokens": [
     {
-      "token": "ABC123",
-      "user": "Fulano",
-      "expires": "2025-09-10"
+      "token": "TOKEN_USUARIO_PEITO_DEV",
+      "user": "MANUTENCAO",
+      "expires": "2025-12-10"
     },
     {
       "token": "TOKEN_USUARIO_22_DEV",
