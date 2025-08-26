@@ -1,34 +1,3 @@
 {
-  "logs": [
-    {
-      "ownerNumber": "5511960147506",
-      "tokenHash": "TOKEN_USUARIO_PEITO_DEV",
-      "horario": "2025-08-26T08:54:49.384Z"
-    },
-    {
-      "ownerNumber": ".",
-      "tokenHash": "TOKEN_USUARIO_PEITO_DEV",
-      "horario": "26/08/2025, 06:36:15"
-    },
-    {
-      "ownerNumber": ".",
-      "tokenHash": "TOKEN_USUARIO_PEITO_DEV",
-      "horario": "26/08/2025, 18:48:48"
-    },
-    {
-      "ownerNumber": ".",
-      "tokenHash": "TOKEN_USUARIO_PEITO_DEV",
-      "horario": "26/08/2025, 19:00:00"
-    },
-    {
-      "ownerNumber": ".",
-      "tokenHash": "TOKEN_USUARIO_PEITO_DEV",
-      "horario": "26/08/2025, 19:03:11"
-    },
-    {
-      "ownerNumber": ".",
-      "tokenHash": "TOKEN_USUARIO_PEITO_DEV",
-      "horario": "26/08/2025, 19:03:47"
-    }
-  ]
+  "logs": []
 }
