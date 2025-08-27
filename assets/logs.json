@@ -1,24 +1,3 @@
 {
-  "logs": [
-    {
-      "NumberDono": ".",
-      "botNumber": ".",
-      "TokenDoBot": "TOKEN_USU_FREE",
-      "NomeDoBot": "𝙍𝙀𝙈 𝘼𝘿𝙎 ^-^",
-      "NickDono": ".⁷",
-      "authorized": true,
-      "delete": false,
-      "horario": "27/08/2025, 08:34:26"
-    } ,
-    {
-      "NumberDono": ".",
-      "botNumber": ".",
-      "TokenDoBot": "TOKEN_USU_FREE",
-      "NomeDoBot": "𝙍𝙀𝙈 𝘼𝘿𝙎 ^-^",
-      "NickDono": ".⁷",
-      "authorized": true,
-      "delete": false,
-      "horario": "27/08/2025, 08:34:26"
-    }
-  ]
+  "logs": []
 }
