@@ -286,7 +286,7 @@ html.light #fala-mascote::after {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* começa do topo */
+  justify-content: flex-start; 
   animation: fadeIn 0.8s ease-in-out;
 }
 
@@ -296,7 +296,7 @@ html.light #fala-mascote::after {
   margin-bottom: 24px;
   padding: 16px;
   border-radius: 12px;
-  background: rgba(108, 99, 255, 0.1); /* leve destaque */
+  background: rgba(108, 99, 255, 0.1); 
   box-shadow: 0 0 12px rgba(108, 99, 255, 0.2);
 }
 
