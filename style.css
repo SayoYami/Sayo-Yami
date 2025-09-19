@@ -1,3 +1,11 @@
+/* bla bla, fundo toda a tela,  */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo principal do body, nada mais kkkk */
 body {
   background: var(--bg-url) no-repeat top center/cover;
   font-family: 'Inter', sans-serif;
@@ -34,7 +42,7 @@ body * {
 #container {
   width: 360px;
   margin: auto;
-  padding: 24px 0 24px 0; /* Reduzido para aproximar os elementos */
+  padding: 24px 0 24px 0;
   animation: fadeIn 0.8s ease-in-out;
 }
 
@@ -51,7 +59,7 @@ body * {
 
 #profile {
   text-align: center;
-  padding: 16px 0; /* Menor espaçamento */
+  padding: 16px 0;
 }
 
 .profile-pic {
@@ -61,19 +69,16 @@ body * {
   display: none;
 }
 
-/* Lógica da troca de imagem por tema */
+/*  tema */
 .light .light-mode {
   display: inline;
 }
-
 .light .dark-mode {
   display: none;
 }
-
 html:not(.light) .light-mode {
   display: none;
 }
-
 html:not(.light) .dark-mode {
   display: inline;
 }
@@ -81,8 +86,8 @@ html:not(.light) .dark-mode {
 #profile p {
   font-weight: 400;
   line-height: 24px;
-  margin-top: 4px;  /* Reduzido */
-  padding: 8px 0;   /* Reduzido */
+  margin-top: 4px;
+  padding: 8px 0;
 }
 
 .typing {
@@ -101,7 +106,7 @@ html:not(.light) .dark-mode {
 #switch {
   display: flex;
   justify-content: center;
-  padding: 12px 0; /* Reduzido */
+  padding: 12px 0;
 }
 
 #switch button {
@@ -130,7 +135,6 @@ html:not(.light) .dark-mode {
 html.light #switch button ion-icon {
   transform: translateX(0);
 }
-
 html:not(.light) #switch button ion-icon {
   transform: translateX(28px);
 }
@@ -139,7 +143,7 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 12px; /* Reduzido para aproximar os botões */
+  gap: 12px;
   padding: 0;
   margin: 0;
 }
@@ -272,4 +276,39 @@ html.light #fala-mascote {
 
 html.light #fala-mascote::after {
   border-right-color: rgba(255, 255, 255, 0.8);
+}
+
+/* bla bla bla, MEMORIA DA BUCETA, LEMBBRE-SE , PARCERIAS AQUI...*/
+#container {
+  width: 360px;
+  margin: auto;
+  padding: 24px 0;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* começa do topo */
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/*Parcerias */
+#intro-parcerias {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(108, 99, 255, 0.1); /* leve destaque */
+  box-shadow: 0 0 12px rgba(108, 99, 255, 0.2);
+}
+
+#intro-parcerias h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #6c63ff;
+}
+
+#intro-parcerias p {
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 1.5;
 }
